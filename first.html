@@ -1,0 +1,209 @@
+<!DOCTYPE html>
+<html lang="en">
+<style>
+body {font-family: Arial, Helvetica, sans-serif;}
+
+.image-container {
+  background-image: url("style/images/head.jpg");
+  background-size: cover;
+  position: relative;
+  height: 300px;
+}
+
+.text {
+  background-color: white;
+  color: black;
+  font-size: 10vw; 
+  font-weight: bold;
+  margin: 0 auto;
+  padding: 10px;
+  width: 50%;
+  text-align: center;
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  mix-blend-mode: screen;
+}
+</style>
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link rel="stylesheet" href="style/css/style.css">
+	<link rel="preconnect" href="https://fonts.googleapis.com">
+	<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+    <title>Travelling</title>
+</head>
+<body>
+
+
+<header class="header" id="header">
+    <div class="container">
+        <div class="header__inner">
+
+<div class="topnav" id="myTopnav">
+                <a class="nav__link" href="first.html">Головна сторінка</a>
+                <a class="nav__link" href="Як обр.html">Місце відпочинку</a>
+                <a class="nav__link" href="Doc.html" data-scroll="#blog">Документи</a>
+                <a class="nav__link" href="Tur.html" data-scroll="#works">Туризм в Україні</a>
+                <a class="nav__link" href="Adv.html" data-scroll="#footer">Поради для туристів</a>
+				<a href="javascript:void(0);" class="icon" onclick="myFunction()">
+    <i class="fa fa-bars"></i>
+  </a>
+            </div>
+        </div>
+    </div>
+</header>
+
+
+<div class="page">
+
+    <div class="intro" id="intro">
+        <div class="container">
+            <div class="intro__inner">
+			<div class="image-container">
+  <div class="text">
+                Подорожі
+				</div>
+				</div>
+            </div>
+        </div>
+
+</div>
+
+    <section class="section" id="about">
+        <div class="container">
+
+            <div class="section__header">
+			<hr>
+                <h2 class="section__title">Св. Августин</h2>
+                <div class="section__text">
+                    <p>Світ - це книга. І хто не подорожував по ньому - прочитав у ній тільки одну сторінку</p>
+                </div>
+				<hr>
+            </div>
+			        <div class="works">
+            <div class="works__col">
+                <div class="works__item">
+                    <img class="works__image" src="style/images/Norvegia.jpg" alt="Норвегія">
+                    <div class="works__info">
+                        <div class="works__title">Норвегія</div>
+                    </div>
+                </div>
+                <div class="works__item">
+                    <img class="works__image" src="style/images/Kar.jpg" alt="Кариби">
+                    <div class="works__info">
+                        <div class="works__title">Кариби</div>
+                    </div>
+                </div>
+            </div>
+
+            <div class="works__col">
+                <div class="works__item">
+                    <img class="works__image" src="style/images/Kan.jpg" alt="Канада">
+                    <div class="works__info">
+                        <div class="works__title">Канада</div>
+                    </div>
+                </div>
+                <div class="works__item">
+                    <img class="works__image" src="style/images/Eg.jpg" alt="Єгипет">
+                    <div class="works__info">
+                        <div class="works__title">Єгипет</div>
+                    </div>
+                </div>
+            </div>
+            </div>
+        </div>
+		<div class="space">
+		</div>
+		<hr>
+    <div class="container">
+
+            <div class="section__header">
+                <h2 style="padding-top: 130px" class="section__title">На нашому сайті Ви дізнаєтесь: </h2>
+				</div>
+				</div>
+
+    </section>
+	<hr>
+	  <section class="section">
+        <div class="container">
+
+            <div class="section__header">
+                <div class="section__text">
+                </div>
+            </div>
+
+            <div class="wedo">
+                <div class="wedo__item">
+                    <img class="wedo__img" src="style/images/Place.jpeg" alt="Як обрати місце для відпочинку?">
+                </div>
+
+                <div class="wedo__item">
+
+                    <div class="accordion">
+<p>Як обрати місце для відпочинку?</p>
+<p style="font-size: 18px; color: grey">Вибір місця відпочинку - це завжди дуже відповідально. Ми прагнемо отримати від відпустки якомога більше позитивних емоцій та яскравих вражень. Тому надзвичайно важливим є вибір місця відпочинку згідно з нашими уподобаннями.</p>
+
+					</div>
+                        </div>
+						
+						<hr>
+                <div class="wedo__item">
+                    <img class="wedo__img" src="style/images/doc.jpg" alt="Документи">
+                </div>
+                <div class="wedo__item">
+
+                    <div class="accordion">
+<p>Які документи потрібні для подорожі?</p>
+<p style="font-size: 18px; color: grey">Усі пасажири міжнародних рейсів повинні мати чинний паспорт і за потреби чинну візу. Інколи можуть знадобитися і інші документи
+					</p>
+					</div>
+                        </div>
+						<hr>
+						
+	            <div class="wedo__item">
+                    <img class="wedo__img" src="style/images/Ukr.jpg" alt="Україна">
+                </div>
+
+                <div class="wedo__item">
+
+                    <div class="accordion">
+<p>Які є варіанти відпочинку в Україні?</p>
+<p style="font-size: 18px; color: grey">Дуже часто, в пошуках яскравих емоцій і незабутніх вражень, ми замислюємося над тим, де відпочити за кордоном, але при цьому забуваємо про «скарби» власної країни, які за деякими показниками нічим не поступаються іноземним, а іноді навіть перевершують їх! </p>
+					</div>
+                        </div>
+						<hr>
+						
+	            <div class="wedo__item">
+                    <img class="wedo__img" src="style/images/Porady.jpg" alt="Поради">
+                </div>
+                <div class="wedo__item">
+
+                    <div class="accordion">
+<p>Які поради треба знати, щоб подорож пройшла успішно?</p>
+<p style="font-size: 18px; color: grey">У сучасному світі подорожі стали невід'ємною складовою життя кожної людини. Але для того, щоб убезпечити себе під час поїздки, потрібно знати деякі корисні поради.</p>
+					</div>
+                        </div>
+						
+						<hr>
+						
+        </div>
+			
+    </section>
+	<div style="background-image: url(style/images/head.jpg); background-size: cover" class="footer">
+	<p style="padding-bottom: 10px">Подорожі</p>
+	</div>
+<script>
+function myFunction() {
+  var x = document.getElementById("myTopnav");
+  if (x.className === "topnav") {
+    x.className += " responsive";
+  } else {
+    x.className = "topnav";
+  }
+}
+</script>
+
+</body>
+</html>
